@@ -1,0 +1,17 @@
+{
+  "name": "ai-proxy",
+  "version": "0.1.0",
+  "description": "Local proxy to forward requests to Google's Generative Language API (keep API key server-side)",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5"
+  }
+}
